@@ -1,0 +1,23 @@
+{
+  "name": "ember-rrssb",
+  "description": "The default blueprint for ember-cli addons.",
+  "main": "index.js",
+  "authors": [
+    "saurs saurav <saurssaurav33@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ember-addon"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "rrssb": "^1.14.0"
+  }
+}

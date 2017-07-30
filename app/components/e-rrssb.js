@@ -1,0 +1,1 @@
+export { default } from 'ember-rrssb/components/e-rrssb';
