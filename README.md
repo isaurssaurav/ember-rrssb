@@ -1,26 +1,49 @@
 # ember-rrssb
 
-This README outlines the details of collaborating on this Ember addon.
+Ember addon for Ridiculously Responsive Social Sharing Buttons.
+This addon is created from [https://github.com/kni-labs/rrssb](https://github.com/kni-labs/rrssb)
+<img src="http://rrssb.ml/media/rrssb-preview.gif" width="100%" height="auto"/>
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-rrssb`
-* `npm install`
+* `ember install ember rrssb`
 
-## Running
+## Available socail share button
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+* email  
+* facebook
+* tumblr
+* linkedin
+* xing
+* twitter
+* reddit
+* vk
+* googleplus
+* pocket
+* pinterest
 
-## Running Tests
+## Options
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+* shareUrl
+* if shareUrl is not given by user, it will automatically shares current Url.
 
-## Building
+## Usage
 
-* `ember build`
+* Example One :
+* `{{e-rrssb email=true  
+facebook=true
+tumblr=true
+linkedin=true}}`
 
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+* Example Two :
+* `{{e-rrssb shareUrl="https://www.emberaddons.com/?page=2" email=true  
+facebook=true
+tumblr=true
+linkedin=true
+xing=true
+twitter=true
+reddit=true
+vk=true
+googleplus=true
+pocket=true
+pinterest=true}}`
