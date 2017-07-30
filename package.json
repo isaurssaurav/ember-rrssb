@@ -1,7 +1,7 @@
 {
   "name": "ember-rrssb",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Addon for Ridiculously Responsive Social Sharing Buttons.",
   "keywords": [
     "ember-addon",
     "socail share",
