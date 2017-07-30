@@ -30,20 +30,27 @@ This addon is created from [https://github.com/kni-labs/rrssb](https://github.co
 ## Usage
 
 * Example One :
-`{{e-rrssb email=true  
-facebook=true
-tumblr=true
-linkedin=true}}`
+```hbs
+{{e-rrssb
+  email=true  
+  facebook=true
+  tumblr=true
+  linkedin=true}}
+```
 
 * Example Two :
- `{{e-rrssb shareUrl="https://www.emberaddons.com/?page=2" email=true  
-facebook=true
-tumblr=true
-linkedin=true
-xing=true
-twitter=true
-reddit=true
-vk=true
-googleplus=true
-pocket=true
-pinterest=true}}`
+```hbs
+{{e-rrssb
+  shareUrl="https://www.emberaddons.com/?page=2"
+  email=true  
+  facebook=true
+  tumblr=true
+  linkedin=true
+  xing=true
+  twitter=true
+  reddit=true
+  vk=true
+  googleplus=true
+  pocket=true
+  pinterest=true}}
+```
