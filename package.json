@@ -1,11 +1,13 @@
 {
   "name": "ember-rrssb",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Addon for Ridiculously Responsive Social Sharing Buttons.",
   "keywords": [
     "ember-addon",
     "socail share",
-    "responsive social share"
+    "responsive social share",
+    "ember socail share button",
+    "ember responsive socail share button"
   ],
   "license": "MIT",
   "author": "saurssaurav",

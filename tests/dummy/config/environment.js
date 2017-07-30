@@ -44,7 +44,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+     ENV.baseURL = '/ember-rrssb'
   }
 
   return ENV;
