@@ -6,7 +6,7 @@ This addon is created from [https://github.com/kni-labs/rrssb](https://github.co
 
 ## Installation
 
-* `ember install ember rrssb`
+* `ember install ember-rrssb`
 
 ## Available socail share button
 
@@ -25,18 +25,18 @@ This addon is created from [https://github.com/kni-labs/rrssb](https://github.co
 ## Options
 
 * shareUrl
-* if shareUrl is not given by user, it will automatically shares current Url.
+ `if shareUrl is not given by user, it will automatically shares current Url.`
 
 ## Usage
 
 * Example One :
-* `{{e-rrssb email=true  
+`{{e-rrssb email=true  
 facebook=true
 tumblr=true
 linkedin=true}}`
 
 * Example Two :
-* `{{e-rrssb shareUrl="https://www.emberaddons.com/?page=2" email=true  
+ `{{e-rrssb shareUrl="https://www.emberaddons.com/?page=2" email=true  
 facebook=true
 tumblr=true
 linkedin=true
