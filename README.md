@@ -8,7 +8,7 @@ This addon is created from [https://github.com/kni-labs/rrssb](https://github.co
 
 * `ember install ember-rrssb`
 
-## Available socail share button
+## Available social share button
 
 * email  
 * facebook
@@ -25,7 +25,7 @@ This addon is created from [https://github.com/kni-labs/rrssb](https://github.co
 ## Options
 
 * shareUrl
- `if shareUrl is not given by user, it will automatically shares current Url.`
+ `By default, shares a current url.`
 
 ## Usage
 
