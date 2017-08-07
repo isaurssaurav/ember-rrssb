@@ -1,6 +1,6 @@
 {
   "name": "ember-rrssb",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Addon for Ridiculously Responsive Social Sharing Buttons.",
   "keywords": [
     "ember-addon",
@@ -15,7 +15,10 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+   "type": "git",
+   "url": "git+https://github.com/isaurssaurav/ember-rrssb.git"
+ },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
